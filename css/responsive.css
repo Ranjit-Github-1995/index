@@ -1,0 +1,936 @@
+@media (max-width: 1024px) {
+.main_head .navbar-nav .clickD {
+	position: absolute;
+	right: -5px;
+	top: 50%;
+	width: 10px;
+	height: 5px;
+	border-top: 5px solid #fff;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	cursor: pointer;
+	display: block;
+	background-size: 10px;
+	z-index: 9999;
+	transform: translateY(-50%);
+}
+.main_head ul.navbar-nav li .clickD+.sub-menu {
+	opacity: 0;
+	visibility: hidden;
+}
+.main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+	position: absolute;
+	top: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+}
+
+
+ @media (max-width: 991px) {
+.left_nav {
+	float: left;
+	justify-content: left;
+	padding-left: 15px;
+	align-items: flex-start;
+}
+}
+
+
+ @media (max-width: 767px) {
+.main_head .navbar-nav .clickD {
+	top: 25px;
+}
+.main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+	position: relative;
+	top: 100%;
+}
+}
+/* Responsive nav end */
+
+
+@media (min-width: 1900px) {
+	.foot_sec:before {
+		top: -98px;
+	}
+}
+@media (max-width: 1700px) {
+.faq::after {
+	right: 13%;
+}
+}
+ @media (max-width: 1599px) {
+.testmonial .slick-slide {
+	width: 382px;
+}
+.faq::after {
+	right: 6%;
+}
+}
+
+ @media (min-width: 1300px) {
+.some_Expert .slick-list::after {
+	right: -18px;
+	top: 0;
+	content: '';
+	background-color: #f4f8fb;
+	height: 100%;
+	z-index: 9;
+	position: absolute;
+	width: 2%;
+}
+.testmonial .slick-list::after {
+	right: -18px;
+	top: 0;
+	content: '';
+	background-color: #f4f8fb;
+	height: 100%;
+	z-index: 9;
+	position: absolute;
+	width: 2%;
+}
+}
+
+ @media (max-width: 1399px) {
+.some_Expert::after {
+	left: -42px;
+}
+}
+
+ @media (max-width: 1299px) {
+	.foot_sec:before {
+		top: -78px;
+	}
+.some_Expert::after {
+	left: -52px;
+}
+.some_Expert .slick-next {
+	right: -69px;
+}
+.some_Expert .slick-list::after {
+	right: -45px;
+	top: 0;
+	content: '';
+	background-color: #fffbf6;
+	height: 100%;
+	z-index: 9;
+	position: absolute;
+	width: 4%;
+}
+.some_Expert .main_exBox .Expert_detil p.userLangu {
+	font-size: 13px;
+}
+.for_res01 {
+	padding: 0;
+}
+.testmonial{
+	padding-top: 40px;
+}
+
+.testmonial .test_Box{
+	margin: 0 18px;
+}
+.some_Expert .main_exBox .Expert_detil ul.viewprofile{
+	padding: 10px 10px 0 10px;
+}
+.foot_arw.fixed{
+	bottom: 435px;
+}
+
+}
+/*1299*/
+
+
+@media (max-width: 1199px) {
+.navbar .navbar-nav>li {
+	padding: 9px 10px;
+}
+.Banner .banner_cap h1 {
+	font-size: 48px;
+	width: 100%;
+	padding-bottom: 30px;
+	line-height: 56px;
+}
+.Banner .banner_cap{
+	padding: 90px 0;
+}
+.Banner .banner_cap p {
+	font-size: 16px;
+	width: 63%;
+}
+.how_Work {
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+.expert{
+	padding: 60px 0 60px 0;
+}
+.work_process .bottom_content p{
+	font-size: 12.9px;
+	width: 90%;
+}
+.some_Expert{
+	padding: 20px 0;
+}
+.rightConBox h5{
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+.some_Expert .slick-prev::before{
+	right: -55px;
+}
+.rightConBox p{
+	font-size: 14px;
+	width: 100%;
+	padding-bottom: 10px;
+}
+.some_Expert .slick-next::before {
+	right: 55px;
+}
+.what_makes .right_content {
+	padding-left: 15px;
+}
+.what_makes .right_content h3 {
+	font-size: 40px;
+	line-height: 50px;
+}
+.what_makes .left_imgBxo {
+	position: relative;
+	z-index: 1999;
+}
+.what_makes .right_content p {
+	padding-bottom: 8px;
+}
+.div_fles span{
+	font-size: 11px;
+}
+.div_fles span.post{
+	font-size: 11px;
+}
+.div_fles p{
+	font-size: 14px;
+}
+.outer_jobpost h5{
+	font-size: 18px;
+}
+.testmonial {
+	padding: 15px 0 60px 0;
+}
+.testmonial .slick-slide {
+	width: 425px;
+}
+.testmonial .slick-list::after {
+	right: -23px;
+	top: 0;
+	content: '';
+	background-color: #fff;
+	height: 100%;
+	z-index: 9;
+	position: absolute;
+	width: 30%;
+	opacity: 0.5;
+}
+.testmonial .slick-list::before {
+	left: 0;
+	top: 0;
+	content: '';
+	background-color: #fff;
+	height: 100%;
+	z-index: 9;
+	position: absolute;
+	width: 24%;
+	opacity: 0.5;
+}
+.testmonial .slider-for .slick-current .active_user::after {
+	margin-left: -30%;
+	bottom: 80px;
+}
+.testmonial .slick-dots {
+    bottom: -10px;
+}
+.testmonial .slider-for .active_user{
+	padding-top: 0px;
+}
+.foot_arw.fixed {
+    bottom: 420px;
+}
+
+footer .quickLinks ul.secndlinks {
+	padding-left: 20px;
+}
+
+
+.for_res01 {
+	padding: 0;
+}
+.Category_footer {
+	padding-left: 10px;
+}
+.foottop_Iner {
+	padding-top: 0px;
+	padding-bottom: 15px;
+}
+.foot_logo img {
+	width: auto;
+}
+.foot_botm {
+	padding: 15px 0;
+}
+.how_did_inr_box p {
+	margin-top: 5px;
+	font-size: 14px;
+	line-height: 22px;
+}
+.footbx p, .footbx li {
+	line-height: 24px;
+}
+.foottop_Iner .col-md-4:nth-child(2) {
+	flex: 0 0 39%;
+	max-width: 39%;
+}
+.foottop_Iner .col-md-4:nth-child(3) {
+	flex: 0 0 27%;
+	max-width: 27%;
+}
+
+.foottop_Iner .col-md-4:nth-child(2) .footbx {
+	padding-left: 0;
+}
+.foottop_Iner .col-md-4:nth-child(1) {
+	-ms-flex: 0 0 100% !important;
+	flex: 0 0 100% !important;
+	max-width: 100% !important;
+}
+.redmor {
+	margin-top: 9px;
+}
+.foottop_Iner .col-md-4:nth-child(2), .foottop_Iner .col-md-4:nth-child(3), .foottop_Iner .col-md-4:nth-child(4) {
+	flex: 0 0 50% !important;
+	max-width: 50% !important;
+}
+.footbx h4 {
+	font-size: 15px;
+	margin-bottom: 9px;
+	margin-top: 22px;
+}
+.foot_sec:before {
+	height: 69px;
+	top: -64px;
+}
+
+}
+/*1199*/
+
+
+@media (max-width: 991px) {
+
+.navbar-toggler {
+	display: none;
+}
+.search-section{
+	margin-left: 0px;
+	width: 340px;
+}
+.Banner{
+	background-position: right center;
+}
+.Banner .banner_cap h1 {
+	width: 100%;
+	line-height: 55px;
+	padding-bottom: 15px;
+	font-size: 44px;
+}
+.Banner .banner_cap h5{
+	line-height: 50px;
+}
+.Banner .banner_cap {
+	padding: 60px 0;
+}
+.Banner .banner_cap p{
+	color: #fff;
+}
+p.center_pra {
+	padding-bottom: 25px;
+	width: 70%;
+}
+.how_Work{
+	padding: 40px 0;
+}
+.work_process .outer .top_shape{
+	height: 230px;
+}
+.work_process .outer{
+	margin-bottom: 15px;
+}
+.jobBor{
+	border-right: 1px solid #e3e3e3 !important;
+}
+.expert {
+    padding: 40px 0 40px 0;
+}
+.expert .pr-22 {
+    padding-right: 12px;
+}
+.expert .pl-22 {
+    padding-left: 12px;
+}
+.expert_outer{
+	margin-bottom: 15px;
+}
+.some_Expert::after {
+	left: -45px;
+	background-size: 75%;
+}
+.some_Expert .slick-list::after {
+	width: 6%;
+}
+.outer_jobpost h5 {
+    font-size: 21px;
+}
+.div_fles span {
+    font-size: 14px;
+}
+.div_fles span.post {
+    font-size: 14px;
+}
+.what_makes {
+	padding: 50px 0;
+}
+.what_makes::after {
+	display: none;
+}
+.what_makes .left_imgBxo img {
+	object-position: left;
+}
+.what_makes .right_content {
+	padding: 15px;
+}
+.what_makes .right_content h3 {
+	font-size: 30px;
+	line-height: 38px;
+	padding-bottom: 8px;
+}
+.what_makes .right_content p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.testmonial {
+	padding: 50px 0;
+}
+.testmonial .slick-list::before {
+	width: 17%;
+}
+.testmonial .slick-list::after {
+	width: 23%;
+}
+.testmonial .active_user .active{
+	width: 50px;
+	height: 50px;
+}
+.testmonial .active_user .testName h6{
+	font-size: 14px;
+}
+.testmonial .slick-dots {
+    bottom: -18px;
+}
+.testmonial .slick-dots li.slick-active{
+	width: 6px;
+	height: 6px;
+}
+.testmonial .slick-dots li{
+	width: 6px;
+	height: 6px;
+}
+p.center_pra {
+	padding-bottom: 25px;
+	width: 100%;
+}
+
+.what_makes .right_content {
+	padding: 15px 8px;
+}
+
+
+.main_search_area .srch_fields02 input[type="button"] {
+	padding: 0 20px 0 44px;
+}
+footer .footer_logo img {
+	width: 120px;
+}
+
+.foot_sec:before {
+	height: 47px;
+	top: -47px;
+}
+.how_did_we_do {
+	padding-bottom: 80px;
+}
+.foot_arw.fixed {
+	bottom: 430px;
+}
+.foottop_Iner {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.footbx_sos p {
+	font-size: 14px;
+	margin-right: 10px;
+}
+.footbx_sos ul li a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.footbx p, .footbx li {
+	line-height: 20px;
+	font-size: 13px;
+}
+.footbx_sos ul li {
+	margin-right: 2px;
+}
+
+}
+/*991*/
+
+
+
+@media (max-width: 767px) {
+
+.search-section {
+width: 100%;
+position: absolute;
+top: 45px;
+background: #fff;
+margin: 0;
+padding: 0 15px;
+height: 66px;
+border-bottom: 1px solid #ecebeb;
+border-top: 1px solid #ecebeb;
+display: none;
+}
+.input-group-btn .btn{
+	background-color: #131432;
+	border-color: #131432;
+}
+.mrtop_rs {
+    margin-top: 10px;
+}
+.search-section input {
+    background: #FFF;
+}
+.mob_srch_icon {
+display: block;
+float: right;
+margin-left: auto;
+border: 1px solid #cac6c6;
+border-radius: 100%;
+width: 29px;
+height: 28px;
+text-align: center;
+cursor: pointer;
+margin-right: 15px;
+padding: 2px;
+}
+.right_Toplogin ul li a.signup {
+ padding: 7px 7px;
+ margin-right: 8px;
+ line-height: 18px;
+ height: 38px;
+ font-size: 15px;
+}
+ .right_Toplogin ul li a.signup.login {
+ padding: 20px 14px;
+ padding: 7px 7px;
+ margin-right:0px;
+ line-height: 18px;
+ height: 38px;
+ font-size: 15px;
+}
+ .right_Toplogin ul li a {
+ padding-right: 10px;
+ font-size: 15px;
+}
+
+ .Banner .banner_cap h1 {
+ width: 100%;
+ line-height: 41px;
+ font-size: 37px;
+ padding-bottom: 12px;
+}
+ .how_Work {
+ padding: 30px 0;
+}
+ h2.center_heding {
+ padding-bottom: 15px;
+ font-size: 30px;
+}
+ p.center_pra {
+ width: 100%;
+ padding-bottom: 15px;
+}
+.work_process .outer .top_shape {
+    height: 165px;
+	padding: 53px 0;
+}
+.Banner .banner_cap p {
+ font-size: 15px;
+ width: 80%;
+ padding-bottom: 15px;
+ line-height: 22px;
+}
+.some_Expert {
+ padding: 22px 0 60px 0;
+}
+
+.what_makes .left_imgBxo img {
+ height: auto;
+}
+.what_makes {
+ padding: 14px 0;
+}
+.what_makes .p-0 {
+ padding: 0 15px !important;
+}
+.work_process .no_pad{
+	padding: 15px;
+}
+.work_process .outer{
+	border-right: 1px solid #e3e3e3;
+}
+.some_Expert .main_exBox {
+ padding: 12px 0;
+}
+ .some_Expert .main_exBox .Expert_detil p {
+ font-size: 14px;
+ padding-bottom: 0px;
+}
+.some_Expert .main_exBox .Expert_detil ul.viewprofile li{
+	font-size: 14px;
+}
+.some_Expert .main_exBox .Expert_detil ul.viewprofile li a{
+	font-size: 14px;
+}
+.some_Expert .slick-prev::before {
+    right: -65px;
+	background-size: 65%;
+	top: -43px;
+}
+.recent_Jobs{
+	padding: 40px 0 30px 0;
+}
+.some_Expert .slick-next::before {
+    right: 60px;
+	background-size: 65%;
+}
+
+ .what_makes .left_imgBxo {
+ z-index: 0;
+}
+ .what_makes .right_content {
+ padding: 15px;
+}
+ .what_makes {
+ padding: 30px 0;
+}
+ .what_makes .right_content span {
+ padding-bottom: 10px;
+}
+ .how_Work .advice_shape::after {
+ display: none;
+}
+ .some_Expert::after {
+ display: none;
+}
+ .testmonial .slick-list::before {
+ width: 5%;
+ opacity: 1;
+}
+ .testmonial .slick-list::after {
+ width: 14%;
+ opacity: 1;
+}
+
+ .some_Expert .main_exBox .Expert_detil p.userLangu {
+ font-size: 12px;
+}
+
+.testmonial img.centerstar {
+ margin-bottom: 10px;
+}
+.testmonial .slider-for .active_user {
+ padding-top: 4px;
+}
+
+
+.foot_arw a {
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+}
+.foot_arw a img {
+	width: 16px;
+}
+.foot_botm {
+	padding: 20px 0;
+}
+.foot_arw.fixed {
+	bottom: 13px;
+}
+.foot_arw {
+	right: 20px;
+}
+.foot_sec:before {
+	height: 31px;
+	top: -31px;
+}
+.how_did_we_do {
+	padding-bottom: 50px;
+}
+.foottop_Iner {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.footbx_sos p {
+	font-size: 14px;
+	margin-right: 10px;
+}
+.footbx_sos ul li a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.footbx p, .footbx li {
+	line-height: 20px;
+	font-size: 13px;
+}
+.footbx_sos ul li {
+	margin-right: 2px;
+}
+
+}
+/*767*/
+
+
+
+
+
+@media (max-width: 575px) {
+
+.logo_menu img{
+	width: 80%;
+}
+.nav_toggle{
+	padding-right: 10px;
+}
+.navbar-toggler-icon .bar {
+	width: 20px;
+}
+.navbar-toggler-icon {
+	width: 1em;
+}
+.right_Toplogin ul li a.signup.login {
+	line-height: 15px;
+	font-size: 12px;
+	height: 32px;
+}
+.right_Toplogin ul li a.signup {
+	line-height: 15px;
+	font-size: 12px;
+	height: 32px;
+}
+.navbar-toggler {
+	padding: 5px;
+}
+
+.logo img {
+	max-width: unset;
+	width: 68px;
+}
+.right_Toplogin ul li a {
+	font-size: 12px;
+	padding-right: 5px;
+}
+
+.Banner .banner_cap p {
+	font-size: 12px;
+	width: 100%;
+	padding-bottom: 12px;
+	line-height: 22px;
+}
+.custom_selbox {
+	top: 0px;
+	margin-bottom: 5px;
+}
+
+.Banner .banner_cap select {
+	font-size: 12px;
+	padding: 12px 40px;
+}
+
+p.center_pra {
+	width: 100%;
+}
+h2.center_heding {
+	font-size: 24px;
+}
+.how_Work {
+	margin-bottom: 0px;
+}
+.what_makes .right_content h3 {
+	font-size: 19px;
+	line-height: 25px;
+}
+.what_makes .right_content span {
+	font-size: 19px;
+}
+.testmonial {
+	padding: 0 0 30px 0;
+}
+.testmonial .test_Box {
+	margin-right: 35px;
+	margin-left: 35px;
+}
+.testmonial .slick-slider {
+	padding-left: 0px;
+}
+.testmonial .slick-list::before {
+	width: 6%;
+	opacity: 1;
+}
+.testmonial .slider-for .slick-current .active_user::after {
+	bottom: 102px;
+}
+.some_Expert .slick-prev::before {
+	display: none;
+}
+.some_Expert .slick-next::before {
+	display: none;
+}
+.some_Expert .slick-list::after {
+	width: 6%;/*background: red;*/
+}
+.some_Expert ul {
+	padding-left: 0px;
+}
+.testmonial .test_Box p {
+	font-size: 12px;
+}
+.for_res01 {
+	padding: 0 15px;
+}
+.Banner .banner_cap {
+    padding: 40px 0;
+}
+.Banner .banner_cap h5 {
+    line-height: 27px;
+	font-size: 17px;
+}
+.Banner .banner_cap ul li a{
+	font-size: 14px;
+}
+.Banner .banner_cap ul li.hire a{
+	padding: 12.5px 18px;
+}
+
+.Banner .banner_cap p {
+	width: 100%;
+}
+
+.Banner .banner_cap h1 {
+	width: 100%;
+	line-height: 34px;
+	font-size: 25px;
+}
+.innerexBox {
+    display: flex;
+    flex-direction: column;
+}
+.left_imgBox {
+    width: 100%;
+}
+.rightConBox{
+	width: 100%;
+	padding: 20px 0;
+}
+.some_Expert .main_exBox .Expert_detil ul.viewprofile li {
+    font-size: 12px;
+}
+.outer_jobpost h5 {
+    font-size: 17px;
+}
+ul.anchor li{
+	font-size: 12px;
+}
+.lists_mids {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.midls_list_info{
+	margin-left: 0px;
+	margin-top: 10px;
+}
+.div_fles {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+}
+.leftDetil {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.work_process .outer .top_shape {
+    height: 100%;
+    padding: 53px 0;
+    background-size: 100% 100%;
+}
+.foot_sec:before {
+    height: 23px;
+    top: -23px;
+}
+.foottop_Iner .col-md-4:nth-child(2), .foottop_Iner .col-md-4:nth-child(3), .foottop_Iner .col-md-4:nth-child(4) {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+	
+	}
+
+
+@media (max-width: 480px) {
+.testmonial .test_Box {
+	margin-right: 70px;
+	margin-left: 62px;
+}
+.testmonial .slick-list::before {
+	display: none;
+}
+.testmonial .slick-list::after {
+	display: none;
+}
+
+}
+
+
+
+@media (max-width: 360px) {
+	.foot_sec:before {
+		height: 23px;
+		top: -18px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
